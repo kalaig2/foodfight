@@ -1,0 +1,196 @@
+/*--
+	Theme Name: theme49470
+	Theme URI: http://info.template-help.com/help/
+	Description: A theme for Wordpress 3.8.x
+	Author: Template_Help.com
+	Author URI: http://info.template-help.com/help/
+	Template: CherryFramework
+	Version: 3.1
+	MotoPress Version: 1.0
+--*/
+
+/* ----------------------------------------
+	Please, You may put custom CSS here
+---------------------------------------- */
+
+header.header .search_shop { margin-top:65px;}
+.footer-widgets ul { margin:0; padding:0;}
+.footer-widgets ul li a { color:#a1a1a1; }
+.footer-widgets ul li { list-style-type:none;}
+.widget.visible-all-devices { list-style-type:none;}
+footer.footer{margin-bottom:0!important; padding-bottom:0px!important;}
+footer.footer .footer-widgets { margin-bottom:50px; margin-left:0}
+footer.footer h4 { font-size:17px !important; padding:0 !important; color:#a1a1a1 !important; margin:0 0 10px 0;}
+footer.footer .email-update h4 { font-size:15px !important; color:#fc3030 !important;}
+footer.footer .email-update form input {text-transform: inherit !important; font-weight: 
+300 !important; font-size: 13px !important;  color:#333333; background-color:#777777; border:0}
+footer.footer .email-update form .wysija-submit {text-transform: inherit !important; font-weight:500 !important; font-size: 17px !important; margin-top:5px; padding-bottom:7px!important }
+
+footer.footer .email-update form p{ margin:0 !important;}
+footer.footer { margin:30px auto;}
+footer.footer .textwidget .address { background:url( http://202.129.196.50:8080/demo/app/wp/augment/foodfight/wp-content/uploads/2016/08/home-icon.png) no-repeat left top; padding-left:30px; margin: 20px 0; font-weight: 600; color: #a1a1a1; }
+footer.footer .textwidget .phone { background:url(http://202.129.196.50:8080/demo/app/wp/augment/foodfight/wp-content/uploads/2016/08/phone-icon.png) no-repeat left top; padding-left:30px;  font-weight: 600; color: #a1a1a1; }
+footer.footer .textwidget .email { background:url(http://202.129.196.50:8080/demo/app/wp/augment/foodfight/wp-content/uploads/2016/08/mail-icon.png) no-repeat left top; padding-left:30px;  font-weight: 600; color: #a1a1a1; font-size:13px !important; }
+footer.footer  .footer-text { text-align:right; float:none !important;}
+body #motopress-main.main-holder .search-form__h{margin-top:6px!important}
+.logo{max-width:300px;}
+.social-icon{float: right;
+    position: absolute;
+    right: 0;
+    top: 28px; }
+.social-icon a{width:25px; height:25px; float:left; margin-right:3px;}
+.social-icon a.fb-header{background-image:url('http://202.129.196.50:8080/demo/app/wp/augment/foodfight/wp-content/uploads/2016/08/face.png'); background-repeat:no-repeat; background-size:100%;}
+
+.social-icon a.twitter-header{background-image:url('http://202.129.196.50:8080/demo/app/wp/augment/foodfight/wp-content/uploads/2016/08/twit.png'); background-repeat:no-repeat; background-size:100%;}
+
+.footer-widgets .span2{width:150px; margin-left:20px!important;}
+.footer-widgets .span2:first-child{width:230px;}
+.footer-widgets .span2:last-child{width:230px;}
+.product-category a{ display:inline-block; padding:5px 15px 8px 15px; background-color:#FB1B34; color:#fff; font-weight:bold; font-size:20px; margin-bottom:30px; transition:all ease 0.5s;  }
+.product-category a:hover{background-color:#333333; text-decoration:none}
+.camera_wrap .camera_caption h3{font-size:28px!important; color:#000000!important; text-transform:inherit!important; font-weight:bold!important; }
+.camera_wrap .camera_caption{width:auto!important; max-width:700px;}
+.camera_wrap .camera_caption p{font-size:28px!important; color:#000000!important; text-transform:inherit!important; font-weight:bold!important;}
+.camera_wrap .camera_caption{left:0!important}
+.camera_wrap .camera_caption p span{font-size:40px!important; color:#FB1B34!important; font-weight:900;}
+.camera_wrap .camera_caption h2{color:#000!important}
+.white-back{background-color: rgba(255, 255, 255, 0.5); padding:30px; padding-bottom:18px; }
+.camera_wrap .camera_caption a{margin-left:30px!important; margin-top:20px!important; background-color:#FB1B34!important; color:#fff;}
+.camera_wrap .camera_caption a:hover{background-color:#333!important; color:#fff!important}
+
+.wysija-paragraph .formError{left:0!important; top:130px!important;}
+
+.foot-logo{width:20%; float:left; margin-right:2%;}
+.foot-address{width:17%; float:left; margin-right:2%;}
+.foot--phone{width:17%; float:left; margin-right:2%;}
+.foot-email{width:17%; float:left; margin-right:2%;}
+.email-update{width:20%; float:left; margin-right:0;}
+.slider-sidebar{ width:350px; float:right}
+.slider-sidebar .span3{width:100%!important; margin-left:0; position:relative; margin-bottom:13px;}
+.slider-sidebar .span3 a{position:absolute; z-index:99; left:0;bottom:15px; display:inline-block; background-color:rgba(255, 255, 255, 0.7); padding:5px 10px;}
+.slider-sidebar .span3 a h2{ margin:0}
+.slider-sidebar .span3 a:hover{text-decoration:none;}
+.slider-sidebar .span3 a h2:hover{color:#ED1C2C; text-decoration:none!important;}
+/* ----------------------------------------
+	Header Section end Here
+---------------------------------------- */
+
+body #motopress-main.main-holder .content-holder .products ul li.product, body #motopress-main.main-holder .content-holder ul.products li.product{border:1px solid #cfcfcf!important; padding:15px; }
+body #motopress-main.main-holder .content-holder .products ul li.product .prod-inner-wrap, body #motopress-main.main-holder .content-holder ul.products li.product .prod-inner-wrap{padding:0!important;}
+body #motopress-main.main-holder .content-holder ul.products li.product > a .price, body #motopress-main.main-holder .content-holder div.product .summary .price{margin-top:10px!important;}
+
+
+#sidebar{ padding-top:15px!important;}
+
+#sidebar h2{ font-size:18px; padding-bottom:5px; border-bottom:1px solid #cfcfcf;}
+body #motopress-main.main-holder .content-holder .woocommerce-ordering select.orderby{background-color:#eee!important; color:#000; border-color:#1a1a1a ;  width:150px!important; font-family:Arial, Helvetica, sans-serif!important}
+body #motopress-main.main-holder .content-holder .woocommerce-result-count{background-color:#eee; padding:5px 10px!important;}
+body #motopress-main.main-holder .content-holder div.product .summary .quantity{float:none; clear:both;}
+body #motopress-main.main-holder .content-holder div.product .summary .quantity .qty{height:32px; padding:5px!important; margin-bottom:20px; background-color:#eee; border-color:#1a1a1a ; color:#000; box-shadow:none!important;}
+body #motopress-main.main-holder .content-holder ul.products li.product > a .price, body #motopress-main.main-holder .content-holder div.product .summary .price{font-size:24px!important;}
+body #motopress-main.main-holder .content-holder ul.products li.product > a .price del, body #motopress-main.main-holder .content-holder ul.products li.product > a .price span.from, body #motopress-main.main-holder .content-holder div.product .summary .price del, body #motopress-main.main-holder .content-holder div.product .summary .price span.from{line-height:30px!important;}
+.woocommerce div.product form.cart .button{margin-top:20px;}
+#tab-description h2{font-size:20px; margin-bottom:0}
+#reviews h2{font-size:20px; margin-bottom:0}
+body #motopress-main.main-holder #content form .form-row input.input-text, body #motopress-main.main-holder #content form .form-row textarea, body #motopress-main.main-holder #content form select, body #motopress-main.main-holder #content .chzn-container input[type="text"], body #motopress-main.main-holder #container form .form-row input.input-text, body #motopress-main.main-holder #container form .form-row textarea, body #motopress-main.main-holder #container form select, body #motopress-main.main-holder #container .chzn-container input[type="text"]{box-shadow:none!important}
+
+
+.woocommerce-tabs .wc-tabs{padding-left:0!important; margin-left:-1px;}
+body #motopress-main.main-holder .content-holder div.product div .tabs li.active a{border-color:#000!important;}
+
+.entry-summary .product_meta span a{background-color:#eee; padding:3px 10px; margin-right:10px; border:1px solid #cfcfcf  }
+.entry-summary .product_meta span a:hover{ background-color:#000000; color:#fff; text-decoration:none!important}
+
+
+body #motopress-main.main-holder #content .page .shop_table tr th{background-color:#eee!important;}
+
+.woocommerce #content .quantity input.qty, .woocommerce .quantity input.qty, .woocommerce-page #content .quantity input.qty, .woocommerce-page .quantity input.qty{ height:32px; background-color:#eee; border-color:#1a1a1a ; color:#000; box-shadow:none!important}
+.shop_table_responsive tr th { border-right:1px solid #cfcfcf!important;}
+.shop_table_responsive tr th:last-child{border-right:0!important;}
+.shop_table_responsive tr td { border-right:1px solid #cfcfcf!important;}
+.shop_table_responsive tr td:last-child{border-right:0!important;}
+.shop_table_responsive tr td .coupon .button{font-size:15px!important;}
+.shop_table_responsive tr td .woocommerce-Price-amount{font-size:20px; line-height:30px;}
+
+
+
+@media screen and (max-width:1199px){
+.footer-widgets .span2:first-child{width:270px; min-height:260px;}
+.footer-widgets .span2{width:270px; min-height:260px;}
+.slider-box{width:70%!important}
+.slider-box .camera_wrap{height:334px!important;}
+.slider-sidebar{width:28%;}
+.camera_wrap .camera_caption h2{font-size:28px!important;}
+.camera_wrap .camera_caption h3{font-size:25px!important; margin:0;}
+.camera_wrap .camera_caption p{font-size:25px!important; margin:0;}
+.camera_wrap .camera_caption p span{font-size:35px!important; line-height:48px;}
+.slider-sidebar .span3 a h2{font-size:20px;}
+.white-back{padding:25px 25px 10px}
+
+}
+
+@media screen and (max-width:979px){
+
+.foot-logo{width:215px; float:none; margin:auto; display:block; margin-bottom:30px;}
+.foot-address{width:23%; float:left; margin-right:2%;}
+.foot--phone{width:23%; float:left; margin-right:2%;}
+.foot-email{width:23%; float:left; margin-right:2%;}
+.email-update{width:23%; float:left; margin-right:0;}
+.slider-box .camera_wrap{height:262px!important;}
+.camera_wrap .camera_caption h2{font-size:23px!important; line-height:25px!important;}
+
+.camera_wrap .camera_caption h3{font-size:19px!important; margin:0;}
+.camera_wrap .camera_caption p{font-size:19px!important; margin:0;}
+.camera_wrap .camera_caption p span{font-size:30px!important; line-height:38px;}
+.camera_wrap .camera_caption a{font-size:14px!important; padding:6px 15px!important;}
+.slider-sidebar .span3 a h2{font-size:18px;}
+.white-back{padding:18px 18px 8px}
+
+
+}
+@media screen and (max-width:800px){
+footer.footer .email-update form input{width:100%;}
+
+}
+
+@media screen and (max-width:768px){
+.product-category img{width:100%;}
+.footer-widgets .span2:first-child{width:220px; min-height:auto; margin-bottom:40px;}
+.footer-widgets .span2{width:220px; min-height:auto; margin-bottom:40px;}
+footer.footer .footer-text{text-align:center}
+.foot-logo{width:215px; float:left; margin-bottom:30px;}
+.foot-address{width:100%; float:left; min-height:100px;}
+.foot--phone{width:100%; float:left; min-height:100px;}
+.foot-email{width:100%; float:left; min-height:100px;}
+.email-update{width:250px; float:left;}
+footer.footer .email-update form input{width:100%; padding-left:0!important; padding-right:0!important;}
+.social-icon{ float:none; left:0; margin:auto; top:118px; width:58px;}
+header.header .search_shop{text-align:center;}
+body #motopress-main.main-holder .shop-nav{display:inline-block; float:none;}
+.nav__primary {width:100%!important; margin:0!important; padding:0!important}
+.nav .select-menu{border-radius:0; background-color:#FC3030; color:#fff; font-size:18px; height:auto; border:0; width:100% }
+.slider-box{width:100%!important;}
+.slider-sidebar{width:100%; margin-top:20px; text-align:center}
+.slider-sidebar .span3{ display:inline-block; width:33%!important; float:none;}
+
+
+}
+@media screen and (max-width:600px){
+	.slider-sidebar .span3{ display:inline-block; width:49%!important; float:none;}
+}
+
+@media screen and (max-width:480px){
+	.slider-sidebar .span3{ display:inline-block; width:100%!important; float:none;}
+}
+
+@media screen and (max-width:400px){
+.social-icon{top:99px;}
+.slider-box .camera_wrap{height:190px!important;}
+}
+
+@media (min-width: 320px) {
+
+	body #motopress-main.main-holder .shop-nav { display: inline-block; margin: 25px 25px 0 0 !important; float:none !important;}
+}
+
+
